@@ -1,0 +1,28 @@
+.cabinet {
+    min-height: calc(100vh - 200px);
+    &_header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: #e0c8c8;
+        height: 60px;
+        h3 {
+            padding: 10px 20px;
+            font-weight: 600;
+        }
+        &--active {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 135px;
+            height: 40px;
+            border-radius: 10px;
+            background-color: #ebd9d9;
+        }
+    }
+    &_container {
+        margin: 30px 50px;
+    }
+}

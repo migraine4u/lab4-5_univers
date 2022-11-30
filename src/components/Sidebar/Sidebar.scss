@@ -1,0 +1,57 @@
+.sidebar {
+    width: 275px;
+    height: 100%;
+    display: flex;
+    float: right;
+    margin: 20px 25px;
+    &_container {
+        width: 275px;
+        height: 500px;
+        background-color: #fdcdcf;
+        box-shadow: 2px 1px 15px 0px rgba(97, 97, 97, 0.2);
+        border-radius: 10px;
+        &__filter {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            margin-top: 20px;
+            &__search {
+                display: flex;
+                align-items: center;
+                height: 50px;
+                &_input {
+                    height: 35px;
+                    text-indent: 10px;
+                    color: #215057;
+                    background-color: #f3e7e7;
+                    outline: none;
+                    border: 1px solid #d4bbbb;
+                    border-radius: 10px;
+                    &:focus {
+                        border: 1px solid #215057;
+                    }
+                }
+            }
+            &-button {
+                cursor: pointer;
+                height: 40px;
+                width: 200px;
+                border-radius: 10px;
+                color: #215057;
+                background-color: #ffebeb;
+                border: 1px solid;
+                margin-bottom: 10px;
+                &:hover {
+                    background-color: #e4cece;
+                }
+            }
+
+            p {
+                font-weight: 600;
+                font-size: 20px;
+                margin: 10px;
+            }
+        }
+    }
+}

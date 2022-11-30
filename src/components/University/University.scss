@@ -1,0 +1,85 @@
+.univer {
+    margin-left: 35px;
+    margin-top: 20px;
+    height: 230px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: 2px 1px 15px 0px rgba(97, 97, 97, 0.2);
+    &:last-of-type {
+        margin-bottom: 20px;
+    }
+    &_photo {
+        background-color: rgb(179, 153, 153);
+        border-radius: 10px 0px 0 10px;
+        width: 330px;
+        height: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg {
+            fill: #fff;
+            opacity: 0.2;
+            height: 100px;
+            width: 100px;
+        }
+    }
+    &_info {
+        background-color: #d1b0b0;
+        width: 500px;
+        height: 230px;
+        &__city {
+            margin: 10px 30px;
+            width: 250px;
+            height: 20px;
+            border-radius: 40px;
+            background-color: rgb(168, 150, 150);
+        }
+        &__name {
+            margin: 10px 30px;
+            width: 400px;
+            height: 25px;
+            border-radius: 40px;
+            background-color: rgb(167, 144, 144);
+            border-right: 1px solid rgb(160, 160, 160);
+        }
+        &__desc {
+            margin: 10px 30px;
+            width: 350px;
+            height: 20px;
+            border-radius: 40px;
+            background-color: rgb(180, 156, 156);
+        }
+        &__button {
+            cursor: pointer;
+            margin-left: 30px;
+            margin-top: 50px;
+            width: 200px;
+            height: 50px;
+            color: #2f6269;
+            background-color: #d8d8d8;
+            border-radius: 10px;
+            border: 0;
+            font-size: 18px;
+            font-weight: 600;
+            transition: 0.2s;
+            &:hover {
+                background-color: #ebc7c7;
+            }
+        }
+    }
+    &_exam {
+        background-color: #d6bebe;
+        border-radius: 0 10px 10px 0;
+        width: 170px;
+        height: 230px;
+        &__inform {
+            margin: 15px 20px;
+            width: 100px;
+            height: 15px;
+            border-radius: 40px;
+            background-color: rgb(184, 160, 160);
+        }
+    }
+}
